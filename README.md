@@ -30,6 +30,9 @@ Notebooks 01–03 are independent and can be run in any order.
 
 Methods and code adapted from the [LIANA+ tutorials](https://liana-py.readthedocs.io/en/latest/notebooks/).
 
-- **LIANA+**: Dimitrov et al. (2024), *Nature Cell Biology*.
+- **LIANA+**: Dimitrov et al. (2024), *Nature Cell Biology* 26:1613–1622.
+- **Benchmark motivating spatial restriction**: Dimitrov et al. (2022), *Nature Communications* 13:3224.
+- **Microenvironments (hard restriction)**: Garcia-Alonso et al. (2021), *Nature Genetics* 53:1698–1711 — CellPhoneDBv3.
+- **Proximity weighting (soft restriction)**: Jin et al. (2024), *Nature Protocols* — CellChatv2.
 - **`inflow` and LRIC**: part of an ongoing LIANA+ extension (Alsayah et al., in prep).
 - **Data**: Yao et al. (2023), *Nature* — [WB_MERFISH_animal2_coronal](https://cellxgene.cziscience.com/collections/0cca8620-8dee-45d0-aef5-23f032a5cf09).
