@@ -1,7 +1,7 @@
 # Cell–cell communication with LIANA+
 
 Hands-on tutorials for inferring cell–cell communication with
-[LIANA+](https://liana-py.readthedocs.io/). They start with a shared introduction, followed
+[LIANA+](https://liana.readthedocs.io/en/stable/). They start with a shared introduction, followed
 by two parts:
 
 ```
@@ -14,7 +14,7 @@ tutorials/
 1. **`tutorials/spot/`: spot-based spatial transcriptomics.** 10X Visium data from a human
    heart after myocardial infarction (Kuppe et al., 2022).
 2. **`tutorials/image/`: single-cell resolution.** Imaging-based MERFISH data from the
-   adult mouse brain (Yao et al., 2023). Part 2 builds on Part 1.
+   adult mouse brain (Zhang et al., 2023; loaded with `li.ds.yao_2023()`). Part 2 builds on Part 1.
 
 ## Setup
 
@@ -70,7 +70,7 @@ Notebooks 01–03 are independent and can be run in any order.
 
 ## Citation
 
-Methods and code adapted from the [LIANA+ tutorials](https://liana-py.readthedocs.io/en/latest/notebooks/).
+Methods and code adapted from the [LIANA+ tutorials](https://liana.readthedocs.io/en/stable/).
 
 - **LIANA+**: Dimitrov et al. (2024), *Nature Cell Biology* 26:1613–1622.
 - **Benchmark motivating spatial restriction**: Dimitrov et al. (2022), *Nature Communications* 13:3224.
@@ -79,4 +79,4 @@ Methods and code adapted from the [LIANA+ tutorials](https://liana-py.readthedoc
 - **MISTy**: Tanevski et al. (2022), *Genome Biology* 23:97.
 - **`inflow` and LRIC**: part of an ongoing LIANA+ extension (Alsayah et al., in prep).
 - **Data (Part 1)**: Kuppe et al. (2022), *Nature* 608:766–777. Visium slide `Visium_19_CK297` (ischemic zone).
-- **Data (Part 2)**: Yao et al. (2023), *Nature*. [WB_MERFISH_animal2_coronal](https://cellxgene.cziscience.com/collections/0cca8620-8dee-45d0-aef5-23f032a5cf09).
+- **Data (Part 2)**: Zhang et al. (2023), *Nature* 624:343–354, [doi:10.1038/s41586-023-06808-9](https://doi.org/10.1038/s41586-023-06808-9) (the loader is named `li.ds.yao_2023()`). [WB_MERFISH_animal2_coronal](https://cellxgene.cziscience.com/collections/0cca8620-8dee-45d0-aef5-23f032a5cf09).
