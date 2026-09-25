@@ -1,6 +1,6 @@
-# Environment for the "Cell-cell communication at single-cell resolution" tutorial.
+# Environment for the LIANA+ cell-cell communication tutorials (spot/ and image/).
 #
-#   conda env create -f env.yml
+#   conda env create -f environment.yml
 #   conda activate sc-ccc-tutorial
 #
 # Versions are pinned to the set the notebooks were built and tested against.
@@ -8,15 +8,18 @@ name: sc-ccc-tutorial
 channels:
   - conda-forge
 dependencies:
-  - python=3.13
+  - python=3.12
   - pip
+  - git
   - pip:
-      # LIANA+ 2.0.0 is not on PyPI yet; install from main.
-      - liana @ git+https://github.com/scverse/liana-py
+      # LIANA+ 2.0.0 is not on PyPI yet; install the V2.0.0 tag from GitHub.
+      - liana @ git+https://github.com/scverse/liana-py@V2.0.0
       - scanpy==1.12.4
       - squidpy==1.8.3
       - anndata==0.13.3.post0
-      - plotnine==0.15.0
+      - mudata==0.4.1
+      - decoupler==2.2.0
+      - plotnine==0.15.8
       - seaborn==0.13.2
       - matplotlib==3.11.1
       - numpy==2.5.3
@@ -30,3 +33,4 @@ dependencies:
       - omnipath==1.0.12
       - scverse-misc==0.1.4
       - jupyterlab
+      - ipykernel
