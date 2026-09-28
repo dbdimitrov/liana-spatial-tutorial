@@ -51,7 +51,7 @@ Exercises: compare individual methods; (advanced) build your own consensus with 
 
 Run them in order. Each notebook is self-contained, so none depends on another's output.
 
-Exercises follow the same format in both parts: a task box, a `# your turn` cell, and a collapsed **▶ Solution**.
+Exercises follow the same format in both parts: a task box, a `# your turn` cell, and a collapsed **Solution**.
 
 ## Part 2: single-cell resolution (MERFISH)
 
